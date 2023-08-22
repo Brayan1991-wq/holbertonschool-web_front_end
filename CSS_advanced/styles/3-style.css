@@ -1,26 +1,31 @@
 html {
     scroll-behavior: smooth;
 }
+/*establece el color de todo el cuerpo de la pagina*/
 body {
     color: text-color;
 }
+/*establece color a todos los elementos de anclaje o enlaces*/
 a {
     color: #161616;
 }
+/*oculta elementos con la clase visally hidden */
 .visually-hidden {
     display: none;
-}
+}/*establece color para todos los elementos de la clase card-category*/
 .card-category {
     color: color-primary;
 }
+/*establece color para todos los elementos de clase section-tagline*/
 .section-tagline {
     color: color-primary;
 }
+/*define las propiedades personalizadas en la raiz */
 :root {
     color-primary: #d73953;
     color-black: #090909;
     color-white: #ffffff;
     color-light-grey: #f3f3f3;
     color-dark-grey: #353535;
-    text-color: color-black;
+    text-color: var(color-black);
 }

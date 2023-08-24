@@ -575,12 +575,12 @@ ul.row {
     color: var(--color-primary);
 }
 .section-hero {
-    background-size: 100% auto;
+    background-size: 100rem auto;
     width: 90rem auto;
 }
 .section-hero .section-title {
-    margin: 5rem;
+    margin-bottom: 5rem;
 }
 .section-hero .section-inner {
-    padding-top: 10rem 40rem 2rem 0;
+    padding: 10rem 40rem 2rem 0;
 }
